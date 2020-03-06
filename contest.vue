@@ -119,7 +119,7 @@
                     console.error("Could not retrieve data from server. Please check internet connection and try again.");
                 }); 
                 this.$store.dispatch("getData", "contests").then(response => {
-                    this.currentContest = this.findContestByShowOnSlug('twinpine-test-test');
+                    this.currentContest = this.findContestByShowOnSlug('longbeach-test-test');
                     this.dataLoaded = true;
                     console.log(this.currentContest)
                 }, error => {
